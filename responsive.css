@@ -1,0 +1,58 @@
+/* Max Tablet */
+@media (max-width:922px) {
+    .menu_mobile {
+        text-align: center;
+    }
+
+    .menu_mobile li {
+        display: inline-flex;
+        align-items: center;
+    }
+
+}
+
+/* Max S - M - L Mobile */
+@media (max-width: 540px) {
+/* Burger Style */
+    .burger_menu {
+        display: block;
+    }
+
+    .nav_center {
+        display: none;
+        margin-top: 20px;
+    }
+
+    .menu_active,
+    .nav_center {
+        display: block;
+    }
+
+    .menu_active,
+    .menu_navigasi {
+        display: block;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        display: none;
+    }
+
+    .nav_center ul li a {
+        display: block !important;
+        padding-left: 15px;
+        font-size: 20px;
+    }
+
+    /* new */
+    .menu_active header {
+        min-height: 100vh;
+        background-color: #131516;
+        color: white;
+    }
+
+    .menu_active .menu_mobile {
+        display: flex;
+    }
+  
+}
